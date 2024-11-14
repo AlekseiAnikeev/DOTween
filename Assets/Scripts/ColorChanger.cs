@@ -2,13 +2,13 @@ using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class ChangeColor : MonoBehaviour
+public class ColorChanger : MonoBehaviour
 {
     [SerializeField] private Color _targetColor;
     [SerializeField] private int _repeats;
     [SerializeField] private float _duration;
     [SerializeField] private LoopType _loopType;
-    
+
     private SpriteRenderer _spriteRenderer;
 
     private void Awake()

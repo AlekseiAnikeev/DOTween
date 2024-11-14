@@ -795,11 +795,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 718794639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc1f9c0c8b456364a8f7501acdef30cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5113ed70e40837742b05c367eced619c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 180, z: 0}
-  _duration: 3
+  _duration: 2
   _repeats: -1
   _loopType: 0
 --- !u!1 &963194225
@@ -1074,12 +1074,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1715450164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35e7c32473baac545b1efadc43093ebd, type: 3}
+  m_Script: {fileID: 11500000, guid: 35106ce0b462e0c469e64ff9abbcf635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 334411607}
   _repeats: -1
-  _duration: 3
+  _duration: 2
   _loopType: 1
 --- !u!1 &1864269072
 GameObject:
@@ -1185,54 +1185,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1897519480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1897519482}
-  - component: {fileID: 1897519481}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1897519481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897519480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35e7c32473baac545b1efadc43093ebd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _text: {fileID: 0}
-  _repeats: 0
-  _duration: 0
-  _loopType: 0
---- !u!4 &1897519482
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897519480}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.02, y: -1.52, z: 0.489223}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1245,5 +1197,4 @@ SceneRoots:
   - {fileID: 441964016}
   - {fileID: 1864269075}
   - {fileID: 1708109019}
-  - {fileID: 1897519482}
   - {fileID: 1715450168}
